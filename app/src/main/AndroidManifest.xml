@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.luizeduardo.exercicio1">
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/cadastro_cliente"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PaginaInicial">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CadastrarCliente"
+            android:label="@string/cadastro_cliente"
+            />
+        <activity
+            android:name=".ListaClientes"
+            android:label="@string/consultarCliente"
+            />
+        <activity
+            android:name=".EditarCliente"
+            android:label="@string/edicao_cliente"
+            />
+    </application>
+</manifest>
